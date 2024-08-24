@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+html {
+    font-family: "Poppins", system-ui;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #b3d1ff;
+    width: auto;
+}
+
+.select {
+    width: 500px;
+    margin: 100px;
+    padding: 20px;
+    border: 2px outset #0a115c;
+    background-color: #2f53ff;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.select-main-form {
+    color: #0a115c;
+    height: max-content;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+label{
+    font-size: 20px;
+    color: #0a115c;
+    font-weight: bold;
+}
+
+
+.container {
+    background-color: #b3d1ff;
+    width: 500px;
+    padding: 20px;
+    border: 2px outset #0a115c;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container-card {
+    border-radius: 0 0 10px 10px;
+}
+
+.emoji {
+    color: #0a115c;
+}
+
+.text-descricao {
+    font-size: 20px;
+    color: #0a115c;
+}
+
+.btn-todo-card {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-btn-delete,
+.card-btn-editar,
+.card-btn-status,
+.btn-form {
+    border-radius: 6px;
+    border: solid;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.card-btn-editar {
+    color: black;
+    background-color: rgb(255, 197, 22);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 197, 22);
+
+}
+
+.card-btn-delete{
+    color: black;
+    background-color: rgb(187, 45, 59);
+    color: rgb(255, 255, 255);
+    border-color: rgb(187, 45, 59);
+}
+
+.btn-form,.card-btn-status{
+    color: black;
+    background-color: rgb(13, 110, 253);
+    color: rgb(255, 255, 255);
+    border-color: rgb(13, 110, 253);
+}
+
+.btn-link{
+    text-decoration: none;
+}
+
+
+.to-do-text {
+    width: 20px;
+    height: auto;
+}
+.card-title{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .select {
+        max-width: 98%;
+        margin: 10px;
+    }
+
+    .container-card {
+        max-width: 100%;
+    }
+
+    .card-btn-delete,
+    .card-btn-editar,
+    .card-btn-status,
+    .btn-form {
+        font-size: 12px;
+        padding: 6px;
+    }
+    label{
+        font-size: 12px;
+        color: #0a115c;
+    }
+
+}
